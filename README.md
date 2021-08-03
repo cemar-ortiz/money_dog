@@ -2,6 +2,16 @@
 
 **_MoneyDog_** is a project I started as a tool myself needed to have a lighter, easier to use interface to monitor my finances. At the beginning I used to do this with a spreadsheet but I had a laptop with very limited resources that struggled to load and manage 'large' spreadsheet files. I thought of using my development + data science skills to build an application that could help me get more juice out of my data without having to depend on a spreadsheet software. This is the result.
 
+### On this version
+
+Currently, this version has a CLI minimal interface to register new movements of money with 'Concept' and 'Partition' tags. These tags will be useful for the implementation of very nice features later on. 
+
+The new movement entries are saved on a .csv file named by the current month and year by default. A feature will be implemented to provide more flexibility and connection to a SQL database later on.
+
+For now, one gets a result of their current total balance everytime a new movement is added to the 'database' but new exciting query features will be added later along with automated visual reports.
+
+Down below you will encounter the product vision as defined for now.
+
 ### Installation
 
 To install it or play around with:
@@ -31,15 +41,13 @@ $ pip install -r requirements.xt
 $ python3 main.py
 ```
 
-### On this version
+### Usage
 
-Currently, this version has a CLI minimal interface to register new movements of money with 'Concept' and 'Partition' tags. These tags will be useful for the implementation of very nice features later on. 
+On launch, the program will ask for input sequentially on:
 
-The new movement entries are saved on a .csv file named by the current month and year by default. A feature will be implemented to provide more flexibility and connection to a SQL database later on.
-
-For now, one gets a result of their current total balance everytime a new movement is added to the 'database' but new exciting query features will be added later along with automated visual reports.
-
-Down below you will encounter the product vision as defined for now.
+- `Movement`: Input quantity, add a negative sign at the beginning if its money spent, and no sign if it's money ingressed 
+- `Concept`: Input text, on what was the money spent? (For example: date night out, groceries, gasoline)
+- `Partition`: Input text, to which medium the movement corresponds? (For example: savings, debit card, loan)
 
 ------------------------------------------------
 
