@@ -8,9 +8,10 @@ To install it or play around with:
 
 1. Clone this repository
 
-2. On the cloned directory, setup a virtual environment:
+2. On the cloned directory, setup a virtual environment and activate it:
 
-`python3 -m venv venv`
+`$ python3 -m venv venv`
+`$ source venv/bin/activate`
 
 3. Install the requirements:
 
