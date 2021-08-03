@@ -4,7 +4,19 @@
 
 ### Installation
 
-To install it just clone the repository and while on a terminal in the cloned directory input  
+To install it or play around with:
+
+1. Clone this repository
+
+2. On the cloned directory, setup a virtual environment:
+
+`python3 -m venv venv`
+
+3. Install the requirements:
+
+`pip install -r requirements.xt`
+
+4. Run the source file using the python interpreter:
 
 `python3 main.py`
 
