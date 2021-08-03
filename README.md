@@ -8,18 +8,28 @@ To install it or play around with:
 
 1. Clone this repository
 
+```
+$ git clone https://github.com/cemar-ortiz/money_dog.git
+```
+
 2. On the cloned directory, setup a virtual environment and activate it:
 
-`$ python3 -m venv venv`
-`$ source venv/bin/activate`
+```
+$ python3 -m venv venv
+$ source venv/bin/activate
+```
 
 3. Install the requirements:
 
-`pip install -r requirements.xt`
+```
+$ pip install -r requirements.xt
+```
 
 4. Run the source file using the python interpreter:
 
-`python3 main.py`
+```
+$ python3 main.py
+```
 
 ### On this version
 
