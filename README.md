@@ -43,11 +43,13 @@ $ python3 main.py
 
 ### Usage
 
-On launch, the program will ask for input sequentially on:
+On launch, the program will ask for input sequentially on, press Enter after filling each field:
 
 - `Movement`: Input quantity, add a negative sign at the beginning if its money spent, and no sign if it's money ingressed 
 - `Concept`: Input text, on what was the money spent? (For example: date night out, groceries, gasoline)
 - `Partition`: Input text, to which medium the movement corresponds? (For example: savings, debit card, loan)
+
+After these inputs have been given, the program will output your current total balance. A .csv file named with the format mm/yyyy of the movement registered will be saved in the same directory of the source file. Adding new movements will update this file and the total balance given at the end of each execution.
 
 ------------------------------------------------
 
